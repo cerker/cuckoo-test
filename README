@@ -1,6 +1,6 @@
 This is a very simple web application to test a Cuckoo Resource Adapter for SAP configuration in an application server.
 
-The application can be built with "mvn install" from the command line. 
+The application can be built with "mvn install" from the command line. The deployable web archive can be found under target/cuckoo-test.war
 
 After deploying it, a page can be displayed which calls the function module RFC_SYSTEM_INFO in the SAP backend and displays a few values returned by SAP. If something is wrong, like the SAP system cannot be reached or the resource adapter configuration is wrong, a Java stacktrace is shown which can be used for further debugging.
 

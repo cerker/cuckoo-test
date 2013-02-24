@@ -2,7 +2,7 @@ This is a very simple web application to test a Cuckoo Resource Adapter for SAP 
 
 After deploying it, a page can be displayed which calls the function module RFC_SYSTEM_INFO in the SAP backend and displays a few values returned by SAP. If something is wrong, like the SAP system cannot be reached or the resource adapter configuration is wrong, a Java stacktrace is shown which can be used for further debugging.
 
-The JNDI name to look up the connection factory is defined as a constant named CONNECTION_FACTORY_JNDI_NAME in class org.cuckoo.ra.test.CuckooBean and might be changed according to the application server which is used. The default is "eis/sap/NSP", which works with Glassfish.
+The JNDI name to look up the connection factory is defined as a constant named CONNECTION_FACTORY_JNDI_NAME in class org.cuckoo.ra.test.CuckooBean and might need to be changed according to the application server which is used. The default is "eis/sap/NSP", which works with Glassfish.
 
 For more information regarding the Cuckoo Resource Adapter see the project page: https://sourceforge.net/p/cuckoo-ra
 
